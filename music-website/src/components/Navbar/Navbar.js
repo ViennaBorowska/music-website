@@ -11,18 +11,10 @@ export default function Navbar() {
         </NavLink>
       </div>
       <div className="nav-container">
-        <NavLink to="/" activeclassname="active">
-          Bio
-        </NavLink>
-        <NavLink to="/" activeclassname="active">
-          Live
-        </NavLink>
-        <NavLink to="/" activeclassname="active">
-          Merch
-        </NavLink>
-        <NavLink to="/" activeclassname="active">
-          Socials
-        </NavLink>
+        <NavLink to="/">Bio</NavLink>
+        <NavLink to="/live">Live</NavLink>
+        <NavLink to="/home">Merch</NavLink>
+        <NavLink to="/help">Socials</NavLink>
       </div>
     </nav>
   );

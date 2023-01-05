@@ -1,3 +1,54 @@
 * {
   font-family: "Josefin Sans", sans-serif;
 }
+
+h1 {
+  margin: 0;
+}
+
+.navbar {
+  background-color: black;
+}
+
+.title-container {
+  background-color: #000;
+  padding: 10px;
+  border-bottom: 10px solid #000;
+  border-image: url(../../../public/images/ARTWORK.png);
+  border-image-slice: 100;
+  width: 100%;
+  /* border-image-repeat: stretch; */
+}
+
+.title {
+  text-decoration: none;
+  letter-spacing: 10px;
+  font-size: 4vh;
+  background-color: transparent;
+  color: rgb(252, 251, 251);
+}
+
+.nav-container {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.nav-container > a {
+  text-decoration: none;
+  font-size: 3vh;
+  color: aliceblue;
+}
+
+.nav-container > a:hover {
+  color: rgb(132, 8, 58);
+}
+
+.nav-container .active {
+  border-bottom: 5px solid #000;
+  border-image: url(../../../public/images/Artwork-bar.png);
+  border-image-slice: 300;
+  /* background-repeat: no-repeat;
+  background-position: center bottom; */
+}
