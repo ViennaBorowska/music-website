@@ -4,10 +4,13 @@
 
 h1 {
   margin: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .navbar {
   background-color: black;
+  padding: 2px;
 }
 
 .title-container {
@@ -17,7 +20,7 @@ h1 {
   border-image: url(../../../public/images/ARTWORK.png);
   border-image-slice: 100;
   width: 100%;
-  /* border-image-repeat: stretch; */
+  border-image-repeat: round;
 }
 
 .title {

@@ -1,0 +1,22 @@
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+}
+
+.gb-logo {
+  background-image: url("../../../public/images/GB-SPIN.png") no-repeat;
+  height: 100px;
+  width: 100px;
+  pointer-events: none;
+}
+
+/* @keyframes gb-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */

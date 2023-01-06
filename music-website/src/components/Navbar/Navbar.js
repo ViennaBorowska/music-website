@@ -4,18 +4,20 @@ import "./Navbar.css";
 
 export default function Navbar() {
   return (
-    <nav className="navbar">
+    <header>
       <div className="title-container">
         <NavLink to="/" className="title" activeclassname="active">
           <h1>GEORGE BOROWSKI</h1>
         </NavLink>
       </div>
-      <div className="nav-container">
-        <NavLink to="/">Bio</NavLink>
-        <NavLink to="/live">Live</NavLink>
-        <NavLink to="/home">Merch</NavLink>
-        <NavLink to="/help">Socials</NavLink>
-      </div>
-    </nav>
+      <nav className="navbar">
+        <div className="nav-container">
+          <NavLink to="/">Bio</NavLink>
+          <NavLink to="/live">Live</NavLink>
+          <NavLink to="/home">Merch</NavLink>
+          <NavLink to="/help">Socials</NavLink>
+        </div>
+      </nav>
+    </header>
   );
 }
