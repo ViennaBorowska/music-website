@@ -7,17 +7,32 @@ export default function Bio() {
       <div className="bio-container">
         <div className="will-fadeIn">
           <p className="bio-txt">
-            Hi there, I'm a junior fullstack developer based in Manchester, NW
-            U.K. <br></br>
-            <br></br>I am a fast learner in posession of a passion to do good,
-            and a keen problem-solving mind. I like to approach problems like a
-            detective solving a mystery, working ceaselessly and methodically
-            until a solution is reached.
-            <br></br>
-            <br></br>I am highly organised with critical attention to detail, so
-            I have found my skills well suited to back-end development - but I
-            also have a strong creative flair and enjoy building attractive,
-            accessible, responsive designs.
+            "One of the hitherto-unacknowledged people, products and 'things{" "}
+            <br></br> that have helped shape rock'n'roll - such has <br></br>
+            been the lift of Mr Unsung Personified" <br></br>- <i>Q Magazine</i>
+          </p>
+        </div>
+        <div className="will-fadeIn">
+          <p className="bio-txt-2">
+            "As a first step towards an appreciation of George Borowski's
+            contribution to music, consider the following - <br></br>George’s
+            consistent motto is one that undoubtedly connects his epic music
+            with the music of others." <br></br>-
+            <i>Jim Sutherland, BBC Manchester Introducing</i>
+          </p>
+        </div>
+        <div className="will-fadeIn">
+          <p className="bio-txt-3">
+            "I have never seen a rock'n'roll performer so completely connected{" "}
+            <br></br> with what he was doing onstage." <br></br> -
+            <i>Frank Black, Pixies</i>
+          </p>
+        </div>
+        <div className="will-fadeIn">
+          <p className="bio-txt-4">
+            George has an uncanny ability to straddle the divide <br></br> and
+            deliver a message to all camps." <br></br> -{" "}
+            <i>Terry Christian, The Word</i>
           </p>
         </div>
         {/* <div className="logo-container">
