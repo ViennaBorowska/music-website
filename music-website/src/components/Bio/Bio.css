@@ -11,22 +11,32 @@
   font-size: 2vmax;
 }
 
-.bio-text {
+.bio-txt {
   position: absolute;
-  top: 8px;
-  right: 16px;
+  top: 15px;
+  left: 30px;
 }
 
-.bio-text-2 {
+.bio-txt-2 {
   position: absolute;
-  bottom: 8px;
+  top: 170px;
+  right: 30px;
+}
+
+.bio-txt-3 {
+  position: absolute;
+  bottom: 190px;
   left: 16px;
 }
 
-.bio-text-3 {
+.bio-txt-4 {
   position: absolute;
-  bottom: 8px;
-  right: 16px;
+  bottom: 38px;
+  right: 30px;
+}
+
+i {
+  color: blueviolet;
 }
 /* .logo-container {
   display: flex;
