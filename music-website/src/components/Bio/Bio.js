@@ -1,6 +1,6 @@
 import React from "react";
 import "./Bio.css";
-import gbImg from "./GB-bw.png";
+import gbImg from './GB-bw.png';
 
 export default function Bio() {
   return (
