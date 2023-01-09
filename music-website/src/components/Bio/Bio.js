@@ -1,14 +1,10 @@
 import React from "react";
 import "./Bio.css";
-import gbImg from './GB-bw.png';
 
 export default function Bio() {
   return (
-    <section>
+    <section className="bio-background">
       <div className="bio-container">
-        <div className="will-fadeIn">
-          <img src={gbImg} alt="b&w of George Borowski"></img>
-        </div>
         <div className="will-fadeIn">
           <p className="bio-txt">
             Hi there, I'm a junior fullstack developer based in Manchester, NW
