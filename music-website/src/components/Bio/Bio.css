@@ -9,34 +9,70 @@
   transition: 10s ease-in;
   transition-delay: 5s;
   font-size: 2vmax;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 .bio-txt {
   position: absolute;
   top: 15px;
   left: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 8px;
+  border-radius: 30px;
+  animation: fadeInAnimation ease 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 .bio-txt-2 {
   position: absolute;
   top: 170px;
   right: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 8px;
+  border-radius: 30px;
+  animation: fadeInAnimation ease 6s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 .bio-txt-3 {
   position: absolute;
   bottom: 190px;
   left: 16px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 8px;
+  border-radius: 30px;
+  animation: fadeInAnimation ease 7s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 .bio-txt-4 {
   position: absolute;
   bottom: 38px;
   right: 30px;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 8px;
+  border-radius: 30px;
+  animation: fadeInAnimation ease 8s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 i {
   color: blueviolet;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 /* .logo-container {
   display: flex;
