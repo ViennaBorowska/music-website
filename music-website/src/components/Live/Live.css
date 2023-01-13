@@ -1,0 +1,19 @@
+.live-container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.poster-container {
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+}
+
+.react-pdf__Page__annotations {
+  display: none;
+}
+
+.react-pdf__Page__textContent {
+  display: none;
+}

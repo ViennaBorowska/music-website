@@ -35,9 +35,6 @@ export default function Bio() {
             <i>Terry Christian, The Word</i>
           </p>
         </div>
-        {/* <div className="logo-container">
-        <div className="gb-logo"></div>
-      </div> */}
       </div>
     </section>
   );

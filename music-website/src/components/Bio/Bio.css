@@ -59,7 +59,7 @@
 }
 
 i {
-  color: #8c52ff;
+  color: var(--gb-purple);
 }
 
 @keyframes fadeInAnimation {
