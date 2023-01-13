@@ -9,7 +9,7 @@ export default function Bio() {
           <p className="bio-txt">
             "One of the hitherto-unacknowledged people, products and 'things{" "}
             <br></br> that have helped shape rock'n'roll - such has <br></br>
-            been the lift of Mr Unsung Personified" <br></br>- <i>Q Magazine</i>
+            been the life of Mr Unsung Personified" <br></br>- <i>Q Magazine</i>
           </p>
         </div>
         <div className="will-fadeIn">
@@ -30,7 +30,7 @@ export default function Bio() {
         </div>
         <div className="will-fadeIn">
           <p className="bio-txt-4">
-            George has an uncanny ability to straddle the divide <br></br> and
+            "George has an uncanny ability to straddle the divide <br></br> and
             deliver a message to all camps." <br></br> -{" "}
             <i>Terry Christian, The Word</i>
           </p>

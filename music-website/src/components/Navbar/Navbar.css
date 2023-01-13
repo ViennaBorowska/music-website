@@ -61,6 +61,4 @@ h1 {
   border-bottom: 5px solid #000;
   border-image: url(../../../public/images/Artwork-bar.png);
   border-image-slice: 300;
-  /* background-repeat: no-repeat;
-  background-position: center bottom; */
 }
