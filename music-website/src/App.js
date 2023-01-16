@@ -11,15 +11,13 @@ function App() {
     <div className="App">
       <Router basename={process.env.PUBLIC_URL + "/"}>
         <Navbar />
-        <div className="page-container">
-          <Routes>
-            <Route path="/" element={<Bio />} />
-            <Route path="/live" element={<Live />} />
-            {/* <Route path="/contact" element={<Contact />} />
+        <Routes>
+          <Route path="/" element={<Bio />} />
+          <Route path="/live" element={<Live />} />
+          {/* <Route path="/contact" element={<Contact />} />
           <Route path="/cv" element={<Cv />} /> */}
-          </Routes>
-          {/* <Footer /> */}
-        </div>
+        </Routes>
+        {/* <Footer /> */}
       </Router>
     </div>
   );
