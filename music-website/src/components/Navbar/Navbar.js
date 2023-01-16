@@ -9,15 +9,15 @@ export default function Navbar() {
         <NavLink to="/" className="title" activeclassname="active">
           <h1>GEORGE BOROWSKI</h1>
         </NavLink>
+        <nav className="navbar">
+          <div className="nav-container">
+            <NavLink to="/">Bio</NavLink>
+            <NavLink to="/live">Live</NavLink>
+            <NavLink to="/home">Merch</NavLink>
+            <NavLink to="/help">Socials</NavLink>
+          </div>
+        </nav>
       </div>
-      <nav className="navbar">
-        <div className="nav-container">
-          <NavLink to="/">Bio</NavLink>
-          <NavLink to="/live">Live</NavLink>
-          <NavLink to="/home">Merch</NavLink>
-          <NavLink to="/help">Socials</NavLink>
-        </div>
-      </nav>
     </header>
   );
 }
