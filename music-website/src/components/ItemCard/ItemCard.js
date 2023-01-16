@@ -7,7 +7,6 @@ import CardContent from "@mui/material/CardContent";
 import CardActions from "@mui/material/CardActions";
 import IconButton, { IconButtonProps } from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
-
 import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
 
 export default function ItemCard(props) {
