@@ -1,0 +1,10 @@
+.card-flex {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card-flex-item {
+  width: 100vw;
+}

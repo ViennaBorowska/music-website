@@ -5,5 +5,40 @@
     "description": "Conspiracy CD",
     "image": "/images/GB-conspiracy.jpg",
     "sale-price": 3.0
+  },
+  {
+    "name": "Conspiracy CD",
+    "price": 5.0,
+    "description": "Conspiracy CD",
+    "image": "/images/GB-conspiracy.jpg",
+    "sale-price": 3.0
+  },
+  {
+    "name": "Conspiracy CD",
+    "price": 5.0,
+    "description": "Conspiracy CD",
+    "image": "/images/GB-conspiracy.jpg",
+    "sale-price": 3.0
+  },
+  {
+    "name": "Conspiracy CD",
+    "price": 5.0,
+    "description": "Conspiracy CD",
+    "image": "/images/GB-conspiracy.jpg",
+    "sale-price": 3.0
+  },
+  {
+    "name": "Conspiracy CD",
+    "price": 5.0,
+    "description": "Conspiracy CD",
+    "image": "/images/GB-conspiracy.jpg",
+    "sale-price": 3.0
+  },
+  {
+    "name": "Conspiracy CD",
+    "price": 5.0,
+    "description": "Conspiracy CD",
+    "image": "/images/GB-conspiracy.jpg",
+    "sale-price": 3.0
   }
 ]
