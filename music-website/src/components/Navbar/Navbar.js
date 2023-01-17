@@ -13,8 +13,8 @@ export default function Navbar() {
           <div className="nav-container">
             <NavLink to="/">Bio</NavLink>
             <NavLink to="/live">Live</NavLink>
-            <NavLink to="/home">Merch</NavLink>
-            <NavLink to="/help">Socials</NavLink>
+            <NavLink to="/shop">Merch</NavLink>
+            <NavLink to="/">Socials</NavLink>
           </div>
         </nav>
       </div>
