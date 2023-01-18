@@ -1,10 +1,18 @@
 .card-flex {
-  width: 100vw;
+  width: 80vw;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-flex-container {
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
 }
 
 .card-flex-item {
-  width: 100vw;
+  display: flex;
+  justify-content: center;
 }

@@ -32,7 +32,7 @@ export default function ItemCard(props) {
     <ThemeProvider theme={theme}>
       <Card
         sx={{
-          maxWidth: 250,
+          maxWidth: 350,
           p: 2,
           border: 1,
           borderColor: "text.primary",

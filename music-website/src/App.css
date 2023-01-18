@@ -5,6 +5,7 @@
   width: 100vw;
   height: 100vh;
   padding: 10px;
+  justify-content: center;
 }
 
 .App-logo {
