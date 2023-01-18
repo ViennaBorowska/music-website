@@ -33,37 +33,39 @@ export default function ItemCard(props) {
       <Card
         sx={{
           p: 2,
-          border: 1,
+          border: 2,
           borderColor: "text.primary",
         }}
         className="item-card"
       >
         <CardHeader
-          title={props.title}
+          title={props.name}
           subheader={props.description}
           className="item-title"
         />
-        <Box className="item-image-container">
-          <CardMedia
-            component="img"
-            height="250"
-            width="250"
-            src={process.env.PUBLIC_URL + props.image}
-            alt="Cover of CD - black and white distorted live gig image"
-            className="item-image"
-            objectFit="contain"
-          />
-        </Box>
+        <div className="item-image-wrap">
+          <Box className="item-image-container">
+            <CardMedia
+              component="img"
+              height="250"
+              width="250"
+              src={process.env.PUBLIC_URL + props.image}
+              alt="Cover of CD - black and white distorted live gig image"
+              className="item-image"
+              objectFit="contain"
+            />
+          </Box>
+        </div>
         <CardContent>
           <Typography
-            variant="body2"
+            variant="h5"
             color="text.secondary"
             className="item-price"
           >
-            {props.price}
+            £{props.price}
           </Typography>
         </CardContent>
-        <CardActions disableSpacing>
+        <CardActions disableSpacing className="card-footer">
           <i>Add To Basket</i>
           <IconButton aria-label="Add To Basket" className="add-icon">
             <AddShoppingCartIcon />

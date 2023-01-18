@@ -13,8 +13,8 @@ export default function Merch() {
           return (
             <Grid item xs={12} sm={6} className="card-flex-item">
               <ItemCard
-                name={card.title}
-                key={card.title}
+                name={card.name}
+                key={card.name}
                 description={card.description}
                 price={card.price}
                 image={card.image}

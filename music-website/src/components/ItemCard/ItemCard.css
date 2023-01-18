@@ -1,5 +1,9 @@
 .item-card {
   margin: 0;
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .item-image {
@@ -10,4 +14,14 @@
 .item-image-container {
   max-width: 300px;
   max-height: 300px;
+}
+
+.item-image-wrap {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.card-footer {
+  justify-content: center;
 }
