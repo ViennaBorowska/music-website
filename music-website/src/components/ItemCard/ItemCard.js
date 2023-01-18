@@ -9,7 +9,7 @@ import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
 import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
-import { borderColor } from "@mui/system";
+import Box from "@mui/material/Box";
 
 //MUI Custom Theme
 const theme = createTheme({
@@ -32,7 +32,6 @@ export default function ItemCard(props) {
     <ThemeProvider theme={theme}>
       <Card
         sx={{
-          maxWidth: 350,
           p: 2,
           border: 1,
           borderColor: "text.primary",
@@ -44,14 +43,17 @@ export default function ItemCard(props) {
           subheader={props.description}
           className="item-title"
         />
-        <CardMedia
-          component="img"
-          height="250"
-          image={process.env.PUBLIC_URL + props.image}
-          alt="Cover of CD - black and white distorted live gig image"
-          className="item-image"
-          sx={{ bgsize: "contain" }}
-        />
+        <Box className="item-image-container">
+          <CardMedia
+            component="img"
+            height="250"
+            width="250"
+            src={process.env.PUBLIC_URL + props.image}
+            alt="Cover of CD - black and white distorted live gig image"
+            className="item-image"
+            objectFit="contain"
+          />
+        </Box>
         <CardContent>
           <Typography
             variant="body2"

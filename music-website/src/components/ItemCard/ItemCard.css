@@ -1,4 +1,13 @@
 .item-card {
   margin: 0;
-  width: 40%;
+}
+
+.item-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.item-image-container {
+  max-width: 300px;
+  max-height: 300px;
 }

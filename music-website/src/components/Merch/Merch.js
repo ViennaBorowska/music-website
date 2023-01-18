@@ -11,7 +11,7 @@ export default function Merch() {
       <Grid container spacing={3} className="card-flex-container">
         {cardList.map((card) => {
           return (
-            <Grid item xs={6} className="card-flex-item">
+            <Grid item xs={12} sm={6} className="card-flex-item">
               <ItemCard
                 name={card.title}
                 key={card.title}
