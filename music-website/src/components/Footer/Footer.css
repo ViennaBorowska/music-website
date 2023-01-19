@@ -1,3 +1,17 @@
+.footer-container {
+  border-top: 10px solid #000;
+  border-image: url(../../../public/images/ARTWORK.png);
+  border-image-slice: 100;
+  border-image-repeat: round;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100vw;
+  margin: 10px;
+
+  justify-content: center;
+}
+
 .footer-link-holder {
-  padding: 5% 0;
+  padding: 1% 0;
 }
