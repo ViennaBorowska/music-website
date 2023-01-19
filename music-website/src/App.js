@@ -4,6 +4,7 @@ import Bio from "./components/Bio/Bio";
 import Live from "./components/Live/Live";
 import Navbar from "./components/Navbar/Navbar";
 import Merch from "./components/Merch/Merch";
+import Footer from "./components/Footer/Footer";
 
 import "./App.css";
 
@@ -17,7 +18,7 @@ function App() {
           <Route path="/live" element={<Live />} />
           <Route path="/shop" element={<Merch />} />
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
       </Router>
     </div>
   );
