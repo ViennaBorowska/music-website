@@ -1,5 +1,6 @@
 import * as React from "react";
 import "./ItemCard.css";
+import Button from "@mui/material/Button";
 import Card from "@mui/material/Card";
 import CardHeader from "@mui/material/CardHeader";
 import CardMedia from "@mui/material/CardMedia";
@@ -66,10 +67,12 @@ export default function ItemCard(props) {
           </Typography>
         </CardContent>
         <CardActions disableSpacing className="card-footer">
-          <i>Add To Basket</i>
-          <IconButton aria-label="Add To Basket" className="add-icon">
-            <AddShoppingCartIcon />
-          </IconButton>
+          <Button color="secondary" variant="outlined">
+            Add To Basket
+            <IconButton aria-label="Add To Basket" className="add-icon">
+              <AddShoppingCartIcon />
+            </IconButton>
+          </Button>
         </CardActions>
       </Card>
     </ThemeProvider>

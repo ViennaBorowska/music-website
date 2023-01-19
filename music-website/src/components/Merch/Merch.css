@@ -15,4 +15,5 @@
 .card-flex-item {
   display: flex;
   justify-content: center;
+  padding-bottom: 10px;
 }

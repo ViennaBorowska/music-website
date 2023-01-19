@@ -2,6 +2,7 @@
   margin: 0;
   width: 20vw;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
 }
@@ -14,6 +15,7 @@
 .item-image-container {
   max-width: 300px;
   max-height: 300px;
+  border: 2px solid whitesmoke;
 }
 
 .item-image-wrap {
@@ -24,4 +26,10 @@
 
 .card-footer {
   justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .item-card {
+    width: 80vw;
+  }
 }
