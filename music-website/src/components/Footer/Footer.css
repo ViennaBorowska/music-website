@@ -1,3 +1,7 @@
+footer {
+  width: 100vw;
+}
+
 .footer-container {
   border-top: 10px solid #000;
   border-image: url(../../../public/images/ARTWORK.png);
@@ -21,4 +25,8 @@
 
 .footer-links {
   margin: 0 10px;
+}
+
+.rights {
+  margin: 5px 0px;
 }
