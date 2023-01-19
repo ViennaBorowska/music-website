@@ -13,5 +13,12 @@
 }
 
 .footer-link-holder {
+  display: flex;
+  flex-direction: row;
   padding: 1% 0;
+  justify-content: center;
+}
+
+.footer-links {
+  margin: 0 10px;
 }

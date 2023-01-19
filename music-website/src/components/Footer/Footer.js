@@ -1,9 +1,11 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faGithub,
   faLinkedin,
   faInstagram,
+  faFacebook,
+  faTwitter,
+  faSpotify,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import "./Footer.css";
@@ -17,7 +19,7 @@ export default function Footer() {
           <div className="footer-link-holder">
             <a
               className="footer-links fa-2x"
-              href="https://www.github.com/ViennaBorowska"
+              href="https://www.instagram.com/georgeborowskiofficial/?hl=en"
               target="_blank"
               rel="noreferrer"
             >
@@ -25,11 +27,11 @@ export default function Footer() {
             </a>
             <a
               className="footer-links fa-2x"
-              href="https://www.linkedin.com/in/vienna-b-108b04229/"
+              href="https://open.spotify.com/artist/5dWPhkuy8t8HQLRtlwOseb"
               target="_blank"
               rel="noreferrer"
             >
-              <FontAwesomeIcon icon={faLinkedin} />
+              <FontAwesomeIcon icon={faSpotify} />
             </a>
             <a
               className="footer-links fa-2x"
@@ -38,6 +40,22 @@ export default function Footer() {
               rel="noreferrer"
             >
               <FontAwesomeIcon icon={faEnvelope} />
+            </a>
+            <a
+              className="footer-links fa-2x"
+              href="https://www.facebook.com/GeorgeBorowskiOfficial/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FontAwesomeIcon icon={faFacebook} />
+            </a>
+            <a
+              className="footer-links fa-2x"
+              href="https://twitter.com/georgeborowski?lang=en"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FontAwesomeIcon icon={faTwitter} />
             </a>
           </div>
           <FontAwesomeIcon icon="fa-light fa-copyright" />
