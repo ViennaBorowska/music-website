@@ -5,6 +5,12 @@
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
+  background-color: black;
+  opacity: 0.8;
+}
+
+.css-trk9q2-MuiPaper-root-MuiCard-root {
+  border: 3px solid whitesmoke;
 }
 
 .item-image {
@@ -15,7 +21,8 @@
 .item-image-container {
   max-width: 300px;
   max-height: 300px;
-  border: 2px solid whitesmoke;
+  border: 4px solid whitesmoke;
+  border-radius: 2%;
 }
 
 .item-image-wrap {
