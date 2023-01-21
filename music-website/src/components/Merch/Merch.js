@@ -5,7 +5,7 @@ import ItemCard from "../ItemCard/ItemCard";
 import ItemData from "../../data/shop-items.json";
 
 export default function Merch() {
-  const [cardList] = useState(ItemData);
+  const [cardList, setSelectedCard] = useState(ItemData);
   return (
     <div className="card-flex">
       <Grid container spacing={3} className="card-flex-container">
