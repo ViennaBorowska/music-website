@@ -8,14 +8,6 @@
   position: relative;
   text-align: center;
   color: white;
-  background-image: url("../../../public/images/GB-bw.png");
-  background-repeat: no-repeat;
-  transition: 10s ease-in;
-  transition-delay: 5s;
-  font-size: 1.5vmax;
-  animation: fadeInAnimation ease 3s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
 }
 
 .bio-txt {

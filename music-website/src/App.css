@@ -7,10 +7,19 @@
   flex-wrap: wrap;
   text-align: center;
   width: auto;
-  height: 100vh;
+  height: 100%;
   padding: 10px;
+  padding-bottom: 0px;
   justify-content: center;
   color: var(--gb-purple);
+  background-image: url("../public/images/GB-bw.png");
+  /* background-repeat: repeat-y; */
+  background-size: cover;
+  transition: 10s ease-in;
+  transition-delay: 5s;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 /* @media (prefers-reduced-motion: no-preference) {
