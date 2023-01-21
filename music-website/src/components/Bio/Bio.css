@@ -3,39 +3,42 @@
 }
 
 .bio-container {
-  height: 100vh;
-}
-
-.text-box {
-  justify-content: center;
-  text-align: center;
-  align-items: center;
+  height: 100%;
 }
 
 .bio-txt-main {
   margin-top: 30%;
   padding: 15%;
+  font-size: 1.2em;
 }
 
 .bio-txt {
+  position: relative;
+  top: 350px;
   animation: fadeInAnimation ease 5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
 
 .bio-txt-2 {
+  position: relative;
+  top: 50px;
   animation: fadeInAnimation ease 5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
 
 .bio-txt-3 {
+  position: relative;
+  top: 300px;
   animation: fadeInAnimation ease 5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
 
 .bio-txt-4 {
+  position: relative;
+  top: 500px;
   animation: fadeInAnimation ease 5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
