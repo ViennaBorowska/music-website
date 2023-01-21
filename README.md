@@ -1,6 +1,6 @@
 # Artist Website
 
-Vienna Borowska - vienna.borowska@hotmail.com
+Vienna Borowska - viennabdev@gmail.com
 
 ## LANGUAGES
 
