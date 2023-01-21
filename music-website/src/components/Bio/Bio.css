@@ -7,15 +7,14 @@
 }
 
 .text-box {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   text-align: center;
+  align-items: center;
 }
 
 .bio-txt-main {
-  width: 80%;
-  margin: 0 0;
+  margin-top: 30%;
+  padding: 15%;
 }
 
 .bio-txt {
