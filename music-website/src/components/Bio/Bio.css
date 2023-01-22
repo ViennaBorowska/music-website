@@ -80,3 +80,18 @@ i {
     transform: rotate(360deg);
   }
 } */
+
+@media (max-width: 768px) {
+  #bio-txt,
+  #bio-txt-2,
+  #bio-txt-3,
+  #bio-txt-4 {
+    position: static;
+    margin: 0% 20%;
+  }
+
+  #bio-txt-main {
+    margin-top: 0%;
+    padding: 5%;
+  }
+}

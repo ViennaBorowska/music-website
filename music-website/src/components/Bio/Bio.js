@@ -18,7 +18,7 @@ export default function Bio() {
   return (
     <Box sx={{ flexGrow: 1 }}>
       <Grid container spacing={2} className="bio-container">
-        <Grid item xs={2}>
+        <Grid item xs={12} md={2}>
           <Item className="will-fadeIn" id="bio-txt">
             <p>
               "One of the hitherto-unacknowledged people, products and 'things{" "}
@@ -28,7 +28,7 @@ export default function Bio() {
             </p>
           </Item>
         </Grid>
-        <Grid item xs={2}>
+        <Grid item xs={12} md={2}>
           <Item className="will-fadeIn" id="bio-txt-2">
             <p>
               "As a first step towards an appreciation of <br></br> George
@@ -40,7 +40,7 @@ export default function Bio() {
             </p>
           </Item>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={12} md={4}>
           <Item className="will-fadeIn" id="bio-txt-main">
             <p>
               Born in Wales in the 2nd Polish Hospital in the displaced persons
@@ -62,7 +62,7 @@ export default function Bio() {
             </p>
           </Item>
         </Grid>
-        <Grid item xs={2}>
+        <Grid item xs={12} md={2}>
           <Item className="will-fadeIn" id="bio-txt-3">
             <p>
               "I have never seen a rock'n'roll <br></br>performer so completely
@@ -71,7 +71,7 @@ export default function Bio() {
             </p>
           </Item>
         </Grid>
-        <Grid item xs={2}>
+        <Grid item xs={12} md={2}>
           <Item className="will-fadeIn" id="bio-txt-4">
             <p>
               "George has an uncanny ability to straddle the divide <br></br>{" "}
