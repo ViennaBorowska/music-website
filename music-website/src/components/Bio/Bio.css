@@ -6,21 +6,23 @@
   height: 100%;
 }
 
-.bio-txt-main {
+#bio-txt-main {
   margin-top: 30%;
   padding: 15%;
   font-size: 1.2em;
+  background-color: black;
+  opacity: 0.9;
 }
 
-.bio-txt {
+#bio-txt {
   position: relative;
-  top: 350px;
+  top: 500px;
   animation: fadeInAnimation ease 5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
 
-.bio-txt-2 {
+#bio-txt-2 {
   position: relative;
   top: 50px;
   animation: fadeInAnimation ease 5s;
@@ -28,7 +30,7 @@
   animation-fill-mode: forwards;
 }
 
-.bio-txt-3 {
+#bio-txt-3 {
   position: relative;
   top: 300px;
   animation: fadeInAnimation ease 5s;
@@ -36,9 +38,9 @@
   animation-fill-mode: forwards;
 }
 
-.bio-txt-4 {
+#bio-txt-4 {
   position: relative;
-  top: 500px;
+  top: 620px;
   animation: fadeInAnimation ease 5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -53,7 +55,7 @@ i {
     opacity: 0;
   }
   100% {
-    opacity: 1;
+    opacity: 0.8;
   }
 }
 /* .logo-container {
