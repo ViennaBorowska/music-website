@@ -1,0 +1,9 @@
+.gig-list-item {
+  background-color: black;
+  border: 1px solid whitesmoke;
+  margin: 5px;
+}
+
+.ticket-button svg {
+  color: var(--gb-purple);
+}

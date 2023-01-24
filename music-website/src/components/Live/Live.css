@@ -5,20 +5,10 @@
   justify-content: center;
 }
 
-.gig-list-item {
-  background-color: black;
-  border: 1px solid whitesmoke;
-  margin: 5px;
-}
-
 .gig-list-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-.ticket-button svg {
-  color: var(--gb-purple);
 }
 
 .poster-list {

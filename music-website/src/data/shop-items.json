@@ -3,36 +3,36 @@
     "name": "Conspiracy",
     "price": "5.00",
     "description": "CD",
-    "image": "/images/GB-conspiracy.jpg"
+    "image": "/images/shop/GB-conspiracy.jpg"
   },
   {
     "name": "Lite Xaverian",
     "price": "5.00",
     "description": "CD",
-    "image": "/images/GB-lite-xaverian.jpg"
+    "image": "/images/shop/GB-lite-xaverian.jpg"
   },
   {
     "name": "Our House",
     "price": "5.00",
     "description": "CD",
-    "image": "/images/GB-our-house.jpg"
+    "image": "/images/shop/GB-our-house.jpg"
   },
   {
     "name": "Wrist Pocket",
     "price": "5.00",
     "description": "Accessory",
-    "image": "/images/GB-wrist-pocket.jpg"
+    "image": "/images/shop/GB-wrist-pocket.jpg"
   },
   {
     "name": "Conspiracy CD",
     "price": "5.00",
     "description": "Conspiracy CD",
-    "image": "/images/GB-conspiracy.jpg"
+    "image": "/images/shop/GB-conspiracy.jpg"
   },
   {
     "name": "Conspiracy CD",
     "price": "5.00",
     "description": "Conspiracy CD",
-    "image": "/images/GB-conspiracy.jpg"
+    "image": "/images/shop/GB-conspiracy.jpg"
   }
 ]
