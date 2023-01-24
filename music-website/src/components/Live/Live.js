@@ -18,6 +18,7 @@ import Typography from "@mui/material/Typography";
 import { Container } from "@mui/system";
 import QueensCraftPoster from "./posters/gb-poster-crafthouse.jpg";
 import HunchPoster from "./posters/gb-hunch-poster.jpg";
+import TheHive from "./posters/the-hive.jpg";
 // function generate(element: React.ReactElement) {
 //   return [0, 1, 2].map((value) =>
 //     React.cloneElement(element, {
@@ -88,7 +89,7 @@ export default function Live() {
               }
             >
               <ListItemAvatar>
-                <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
+                <Avatar alt="Cast Doncaster" src={HunchPoster} />
               </ListItemAvatar>
               <ListItemText
                 disableTypography
@@ -122,9 +123,7 @@ export default function Live() {
               }
             >
               <ListItemAvatar>
-                <Avatar>
-                  <AudiotrackIcon />
-                </Avatar>
+                <Avatar alt="Queen Crafthouse" src={QueensCraftPoster} />
               </ListItemAvatar>
               <ListItemText
                 disableTypography
@@ -158,9 +157,7 @@ export default function Live() {
               }
             >
               <ListItemAvatar>
-                <Avatar>
-                  <AudiotrackIcon />
-                </Avatar>
+                <Avatar alt="The Hive" src={TheHive} />
               </ListItemAvatar>
               <ListItemText
                 disableTypography
