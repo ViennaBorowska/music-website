@@ -13,52 +13,54 @@ import Typography from "@mui/material/Typography";
 
 export default function GigCard(props) {
   return (
-    <ListItem
-      className="gig-list-item"
-      secondaryAction={
-        props.ticket ? (
-          <Tooltip title="Get Tickets">
-            <IconButton
-              className="ticket-button"
-              edge="end"
-              aria-label="tickets"
-              href={props.ticket}
-              target="_blank"
-            >
-              <LocalActivityIcon />
-            </IconButton>
-          </Tooltip>
-        ) : (
-          <Tooltip title="Gig Info">
-            <IconButton
-              className="ticket-button"
-              edge="end"
-              aria-label="tickets"
-              href={props.link}
-              target="_blank"
-            >
-              <InfoIcon />
-            </IconButton>
-          </Tooltip>
-        )
-      }
-    >
-      <ListItemAvatar>
-        <Avatar alt="gig image" src={props.image} />
-      </ListItemAvatar>
-      <ListItemText
-        disableTypography
-        primary={
-          <Typography type="body2" style={{ color: "#8c52ff" }}>
-            `{props.date} | {props.title} | {props.time}`
-          </Typography>
+    <CardActionArea href={props.link} target="_blank">
+      <ListItem
+        className="gig-list-item"
+        secondaryAction={
+          props.ticket ? (
+            <Tooltip title="Get Tickets">
+              <IconButton
+                className="ticket-button"
+                edge="end"
+                aria-label="tickets"
+                href={props.ticket}
+                target="_blank"
+              >
+                <LocalActivityIcon />
+              </IconButton>
+            </Tooltip>
+          ) : (
+            <Tooltip title="Gig Info">
+              <IconButton
+                className="ticket-button"
+                edge="end"
+                aria-label="tickets"
+                href={props.link}
+                target="_blank"
+              >
+                <InfoIcon />
+              </IconButton>
+            </Tooltip>
+          )
         }
-        secondary={
-          <Typography type="body2" style={{ color: "#FFFFFF" }}>
-            @ {props.place}
-          </Typography>
-        }
-      />
-    </ListItem>
+      >
+        <ListItemAvatar>
+          <Avatar alt="gig image" src={props.image} />
+        </ListItemAvatar>
+        <ListItemText
+          disableTypography
+          primary={
+            <Typography type="body2" style={{ color: "#8c52ff" }}>
+              {props.date} | {props.title} | {props.time}
+            </Typography>
+          }
+          secondary={
+            <Typography type="body2" style={{ color: "#FFFFFF" }}>
+              @ {props.place}
+            </Typography>
+          }
+        />
+      </ListItem>
+    </CardActionArea>
   );
 }

@@ -48,15 +48,17 @@ export default function Live() {
         <div>
           <List dense={dense} className="gig-list-container">
             {gigList.map((gig) => {
-              <GigCard
-                date={gig.date}
-                ticket={gig.ticket}
-                link={gig.link}
-                place={gig.place}
-                time={gig.time}
-                image={gig.image}
-                title={gig.title}
-              />;
+              return (
+                <GigCard
+                  date={gig.date}
+                  ticket={gig.ticket}
+                  link={gig.link}
+                  place={gig.place}
+                  time={gig.time}
+                  image={gig.image}
+                  title={gig.title}
+                />
+              );
             })}
           </List>
         </div>
