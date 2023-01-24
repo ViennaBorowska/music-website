@@ -3,7 +3,7 @@ import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
-import "./Bio.css";
+import "./About.css";
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: "black",
@@ -14,7 +14,7 @@ const Item = styled(Paper)(({ theme }) => ({
   color: "white",
 }));
 
-export default function Bio() {
+export default function About() {
   return (
     <Box sx={{ flexGrow: 1 }}>
       <Grid container spacing={2} className="bio-container">

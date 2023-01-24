@@ -11,7 +11,7 @@ export default function Navbar() {
         </NavLink>
         <nav className="navbar">
           <div className="nav-container">
-            <NavLink to="/">Bio</NavLink>
+            <NavLink to="/about">About</NavLink>
             <NavLink to="/live">Live</NavLink>
             <NavLink to="/shop">Merch</NavLink>
             <NavLink to="/">Socials</NavLink>
