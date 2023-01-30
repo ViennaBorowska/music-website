@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Document, Page, pdfjs } from "react-pdf";
 import "./Live.css";
 import Grid from "@mui/material/Grid";
 import ImageList from "@mui/material/ImageList";
@@ -22,7 +21,7 @@ export default function Live() {
   const [gigList, setSelectedCard] = useState(GigData);
   return (
     <section className="live-container">
-      <Container>
+      <Container className="top-page">
         <Typography sx={{ mt: 4, mb: 2 }} variant="h6" component="div">
           UPCOMING SHOWS
         </Typography>
@@ -35,13 +34,15 @@ export default function Live() {
             gridAutoColumns: "minmax(160px, 1fr)",
           }}
         >
-          {gigList.map((poster) => (
-            <a href={poster.link} target="_blank">
-              <ImageListItem>
-                <img src={poster.poster} />
-              </ImageListItem>
-            </a>
-          ))}
+          {gigList.map((poster) =>
+            poster.poster ? (
+              <a href={poster.link} rel="noreferrer" target="_blank">
+                <ImageListItem>
+                  <img src={poster.poster} alt="gig poster" />
+                </ImageListItem>
+              </a>
+            ) : null
+          )}
         </ImageList>
       </Container>
       <Grid item xs={12} md={6}>

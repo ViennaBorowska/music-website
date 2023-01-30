@@ -54,8 +54,9 @@ export default function About() {
               toured and worked alongside acts <i>Tina Turner</i>,{" "}
               <i>Radiohead</i>, <i>Meatloaf</i> and <i>Pixes</i> (to name a few)
               as a guitar tech, player, writer and certified spiritual advisor.
-              George now plays with a shifting band of tremendous talents under
-              the name <i>George Borowski & The Fabulous Wonderfuls</i>
+              George still plays solo, and with a shifting band of tremendous
+              talents under the name{" "}
+              <i>George Borowski & The Fabulous Wonderfuls</i>
               <br></br> <br></br>
               Head to the <a href="./live">Live page</a> to see our upcoming
               shows!

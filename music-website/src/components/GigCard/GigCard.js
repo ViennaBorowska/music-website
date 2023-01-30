@@ -26,6 +26,7 @@ export default function GigCard(props) {
                 href={props.ticket}
                 target="_blank"
               >
+                <Typography className="gig-button">Get Tickets</Typography>
                 <LocalActivityIcon />
               </IconButton>
             </Tooltip>
@@ -38,6 +39,7 @@ export default function GigCard(props) {
                 href={props.link}
                 target="_blank"
               >
+                <Typography className="gig-button">Gig Info</Typography>
                 <InfoIcon />
               </IconButton>
             </Tooltip>

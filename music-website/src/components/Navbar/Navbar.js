@@ -11,10 +11,10 @@ export default function Navbar() {
         </NavLink>
         <nav className="navbar">
           <div className="nav-container">
-            <NavLink to="/about">About</NavLink>
-            <NavLink to="/live">Live</NavLink>
-            <NavLink to="/shop">Merch</NavLink>
-            <NavLink to="/">Socials</NavLink>
+            <NavLink to="/">home</NavLink>
+            <NavLink to="/about">about</NavLink>
+            <NavLink to="/live">live</NavLink>
+            <NavLink to="/shop">merch</NavLink>
           </div>
         </nav>
       </div>
