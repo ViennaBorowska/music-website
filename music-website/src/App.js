@@ -15,7 +15,7 @@ function App() {
       <Router basename={process.env.PUBLIC_URL + "/"}>
         <Navbar />
         <Routes>
-          {/* <Route path="/" element={<Home />} /> */}
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/live" element={<Live />} />
           <Route path="/shop" element={<Merch />} />

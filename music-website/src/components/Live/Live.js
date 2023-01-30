@@ -21,10 +21,7 @@ export default function Live() {
   const [gigList, setSelectedCard] = useState(GigData);
   return (
     <section className="live-container">
-      <Container className="top-page">
-        <Typography sx={{ mt: 4, mb: 2 }} variant="h6" component="div">
-          UPCOMING SHOWS
-        </Typography>
+      <Container display="flex" className="top-page">
         <ImageList
           className="poster-list"
           sx={{
