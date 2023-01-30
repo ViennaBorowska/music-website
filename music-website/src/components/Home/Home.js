@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import { YouTubeEmbed } from "react-social-media-embed";
 import { FacebookProvider, Page } from "react-facebook";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
@@ -15,8 +16,8 @@ export default function Home() {
           sx={{
             display: "flex",
             flexDirection: "column",
-            justifyContent: "center",
             height: "100vh",
+            marginTop: "20px",
           }}
         >
           <Typography variant="h3" gutterBottom>
@@ -32,13 +33,45 @@ export default function Home() {
         <Grid
           item
           xs={4}
-          sx={{ display: "flex", justifyContent: "center", height: "100vh" }}
+          sx={{
+            display: "flex",
+            flexDirection: "column",
+            height: "100vh",
+          }}
         ></Grid>
         <Grid
           item
           xs={4}
-          sx={{ display: "flex", justifyContent: "center", height: "100vh" }}
-        ></Grid>
+          sx={{
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            alignItems: "center",
+            height: "100vh",
+          }}
+        >
+          <Typography variant="h3" gutterBottom>
+            VIDEOS
+          </Typography>
+          <YouTubeEmbed
+            url="https://www.youtube.com/watch?v=MmL9kiExf04"
+            width={325}
+            height={220}
+            className="yt-video"
+          />
+          <YouTubeEmbed
+            url="https://www.youtube.com/watch?v=BOyHrOhaMxk"
+            width={325}
+            height={220}
+            className="yt-video"
+          />
+          <YouTubeEmbed
+            url="https://www.youtube.com/watch?v=LXsj6AUjH5Y"
+            width={325}
+            height={220}
+            className="yt-video"
+          />
+        </Grid>
       </Grid>
     </Box>
   );
