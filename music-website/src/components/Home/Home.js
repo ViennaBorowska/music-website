@@ -16,12 +16,13 @@ export default function Home() {
           sx={{
             display: "flex",
             flexDirection: "column",
+            justifyContent: "center",
             height: "100vh",
             marginTop: "20px",
           }}
         >
-          <Typography variant="h3" gutterBottom>
-            Facebook Page
+          <Typography variant="h4" gutterBottom>
+            Follow on Facebook
           </Typography>
           <FacebookProvider appId="1185955652039406">
             <Page
