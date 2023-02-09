@@ -8,7 +8,7 @@
 }
 
 .card-flex-container {
-  width: 100vw;
+  width: 80vw;
   align-items: center;
   justify-content: center;
 }
@@ -17,4 +17,15 @@
   display: flex;
   justify-content: center;
   padding-bottom: 10px;
+}
+
+.btt-holder {
+  border: 1px solid var(--gb-purple);
+  padding: 10px;
+  border-radius: 10%;
+  background-color: black;
+}
+
+.back-to-top {
+  text-decoration: none;
 }

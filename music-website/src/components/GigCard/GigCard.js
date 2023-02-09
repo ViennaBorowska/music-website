@@ -3,7 +3,6 @@ import Avatar from "@mui/material/Avatar";
 import IconButton from "@mui/material/IconButton";
 import InfoIcon from "@mui/icons-material/Info";
 import LocalActivityIcon from "@mui/icons-material/LocalActivity";
-import Card from "@mui/material/Card";
 import { CardActionArea } from "@mui/material";
 import ListItem from "@mui/material/ListItem";
 import ListItemAvatar from "@mui/material/ListItemAvatar";

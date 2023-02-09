@@ -34,7 +34,7 @@ export default function ItemCard(props) {
       <Card
         sx={{
           p: 2,
-          border: 2,
+          border: 1,
           borderColor: "text.primary",
         }}
         className="item-card"

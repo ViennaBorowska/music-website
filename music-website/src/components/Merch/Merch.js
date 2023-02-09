@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Grid } from "@mui/material";
+import { CardActionArea, Grid } from "@mui/material";
 import "./Merch.css";
 import ItemCard from "../ItemCard/ItemCard";
 import ItemData from "../../data/shop-items.json";
@@ -23,6 +23,13 @@ export default function Merch() {
           );
         })}
       </Grid>
+      <div className="btt-holder">
+        <CardActionArea>
+          <a className="back-to-top" href="#">
+            Back To Top
+          </a>
+        </CardActionArea>
+      </div>
     </div>
   );
 }
