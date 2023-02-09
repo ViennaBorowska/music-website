@@ -11,8 +11,7 @@ footer {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  margin: 10px;
-  margin-bottom: 0px;
+  margin-bottom: 2px;
   width: 100vw;
 
   justify-content: center;
@@ -20,6 +19,8 @@ footer {
 
 .footer-link-holder {
   display: flex;
+  margin-top: 5px;
+  margin-left: 0;
   flex-direction: row;
   padding: 1% 0;
   justify-content: center;
@@ -27,6 +28,7 @@ footer {
 
 .footer-links {
   margin: 0 10px;
+  color: var(--gb-purple);
 }
 
 .rights {
